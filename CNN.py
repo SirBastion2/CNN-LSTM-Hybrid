@@ -201,7 +201,7 @@ def train_model(dataset, num_epochs=15, batch_size=256):
         epoch_loss = running_loss / len(dataset)
         print(f"Epoch {epoch + 1}/{num_epochs} - Loss: {epoch_loss:.4f}")
 
-    save_path = "pose_cnn_model6.pth"
+    save_path = "pose_cnn_model.pth"
     torch.save(model.state_dict(), save_path)
     print(f"Training complete. Model saved to {save_path}")
 
