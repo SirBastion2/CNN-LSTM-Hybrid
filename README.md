@@ -92,7 +92,7 @@ python Model.py
 
 ## Hardware Used
 
-Same machine as used for the [Mistral-7B LLM Custom Training](../Mistral-7B-LLM-custom-trained) project:
+Same machine as used for the [Mistral-7B LLM Custom Training]([../Mistral-7B-LLM-custom-trained)](https://github.com/SirBastion2/Mistral-7B-LLM-custom-trained) project:
 
 | Component | Spec |
 |---|---|
