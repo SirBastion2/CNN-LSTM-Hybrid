@@ -2,7 +2,7 @@
 
 A hybrid deep learning pipeline that estimates frame-by-frame technique-induced fatigue in the 100m freestyle from race footage. A CNN extracts swimmer pose (keypoints) from video frames, and those pose sequences are used to derive a custom fatigue score which an LSTM learns to refine over time — producing a fatigue curve for a swim instead of a single end-of-race number.
 
-This project was written up as an AP Research paper (*CNN-LSTM Hybrid Deep Learning Model for Technique Analysis of Elite Swimmers in the 100m Freestyle*), which covers the full literature review, methodology justification, and findings/limitations in more depth than this README does.
+This project was written up as an AP Research paper (*CNN-LSTM Hybrid Deep Learning Model for Technique Analysis of Elite Swimmers in the 100m Freestyle*), which covers the full literature review, methodology justification, and findings/limitations in more depth than this README does. If paper is not linked it is in progress for revision 
 
 ## Motivation
 
