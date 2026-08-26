@@ -70,7 +70,7 @@ Weights (0.60 / 0.15 / 0.15 / 0.10) come from Sanders et al. (2021) and Papic et
 
 ## Dataset
 
-- **Pose training data**: [SwimXYZ](https://github.com/) — a synthetic (3D-rendered) swimmer dataset with COCO-format keypoint annotations for aerial and front camera angles. Not included in this repo; download separately and point `CNN.py`'s `video_base` / `label_base` at it.
+- **Pose training data**: [SwimXYZ](https://g-fiche.github.io/research-pages/swimxyz/) — a synthetic (3D-rendered) swimmer dataset with COCO-format keypoint annotations for aerial and front camera angles. Not included in this repo; download separately and point `CNN.py`'s `video_base` / `label_base` at it.
 - **Evaluation footage**: short (~17–21s) spliced clips of elite swimmers' 100m freestyle races from the [2024 Paris Olympics](https://www.youtube.com/watch?v=q14W1uCJag4), used for research/educational analysis. Not included in this repo — source your own clips and update the hardcoded video paths in `LSTM.py` / `Model.py`.
 
 ## Usage
